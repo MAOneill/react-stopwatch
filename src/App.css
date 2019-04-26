@@ -31,3 +31,56 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+.clockback{
+    
+  width: 200px;
+  height: 200px;
+  border-radius: 50% ;
+  background-color: aquamarine;
+  
+}
+
+.clock * {
+  position: absolute;
+  top:0;
+  left:50%;
+  margin:auto;
+  transform: translate( -50%);
+
+}
+
+.bar-h {
+ width:10px;
+  height:80px;
+  background-color: black;
+  top:10%;
+  left: 50%;
+  transform-origin: bottom ;
+
+}
+
+.bar-m {
+ width:8px;
+  height:85px;
+  background-color: red;
+  top:10%;
+  left: 50%;
+  transform-origin: bottom ;
+
+}
+.bar-s {
+ width:5px;
+  height:100px;
+  background-color: brown;
+  top:0%;
+  left: 50%;
+  transform-origin: bottom ;
+}
+
+
+
