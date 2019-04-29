@@ -83,6 +83,8 @@ componentWillUnmount() {
 _startButton = () => {
   this.setState({
     // totalElapsedTime:0,
+    //when I press start again, it resets...need to fix that.
+    //startTime: this.set.sessionElapsedTime || this.state.totalElapsedTime...but needs more
       startTime:this.state.totalElapsedTime,
       sessionElapsedTime:0,
       stopWatchOn:true,
